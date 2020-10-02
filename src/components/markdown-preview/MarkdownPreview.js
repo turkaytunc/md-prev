@@ -1,7 +1,8 @@
 import React from 'react';
-var parse = require('html-react-parser');
+import parse from 'html-react-parser';
+import './markdown-preview.scss';
 
 export const MarkdownPreview = ({ md }) => {
   let htm = parse(md);
-  return <div id="preview">{htm}</div>;
+  return <div className="preview">{htm}</div>;
 };

@@ -13,7 +13,7 @@
 .app-header {
   font-size: 4vh;
   color: #ddd;
-  text-shadow: 2px 2px 0 #333;
+  text-shadow: 0.12vw 0.12vh 0 #333;
 }
 
 .md-io-wrapper {
@@ -22,4 +22,17 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 520px) {
+  .app {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 2vh 0;
+  }
+
+  .md-io-wrapper {
+    padding: 2vh 0;
+    grid-template-columns: 1fr;
+  }
 }

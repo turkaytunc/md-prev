@@ -1,25 +1,8 @@
 import React from 'react';
 import './app.scss';
 import { MarkdownInput } from './components/markdown-input/MarkdownInput';
-
-const initialMd = `# h1
-## h2
-
-[this is a link](https://turkaytunc.com)
-
-\`this is a inline code\`
-\```
-console.log("hello");
-\```
-> block quote
-
-![alt text](https://turkaytunc.com/footer/github-icon-white.png)
-
-1. first item
-2. second item
-3. another
-
-**bold-text**`;
+import { MarkdownPreview } from './components/markdown-preview/MarkdownPreview';
+import marked from 'marked';
 
 function App() {
   const [appInput, setAppInput] = React.useState();
@@ -27,11 +10,11 @@ function App() {
 
   const setAppCompInput = (input) => {
     setAppInput(input);
-    console.log(input);
+    setMd(convertToMarkdown(input));
   };
 
   const convertToMarkdown = (input) => {
-    let convertedValue = window.marked(input);
+    let convertedValue = marked(input);
     return convertedValue;
   };
 
@@ -43,6 +26,7 @@ function App() {
           setAppCompInput={setAppCompInput}
           getAppInput={appInput}
         />
+        <MarkdownPreview md={md} />
       </div>
     </div>
   );

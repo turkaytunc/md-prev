@@ -1,7 +1,7 @@
 import React from 'react';
-const marked = require('marked');
+var parse = require('html-react-parser');
 
 export const MarkdownPreview = ({ md }) => {
-  let htm = marked(`${md}`);
+  let htm = parse(md);
   return <div id="preview">{htm}</div>;
 };

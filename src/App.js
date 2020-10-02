@@ -11,9 +11,9 @@ function App() {
   };
 
   return (
-    <div class="app">
-      <h1 class="app-header">Markdown Previewer</h1>
-      <div class="md-io-wrapper">
+    <div className="app">
+      <h1 className="app-header">Markdown Previewer</h1>
+      <div className="md-io-wrapper">
         <MarkdownInput
           setAppCompInput={setAppCompInput}
           getAppInput={appInput}

@@ -4,12 +4,14 @@
   align-items: center;
   justify-content: center;
   background: orangered;
-  width: 50vw;
-  margin: 25vh auto;
+  width: 80vw;
+  margin: 10vh auto;
   padding: 5vh 0;
+  text-align: center;
 }
 
 .app-header {
+  font-size: 4vh;
   color: #ddd;
   text-shadow: 2px 2px 0 #333;
 }
@@ -18,4 +20,6 @@
   padding: 10vh 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
 }

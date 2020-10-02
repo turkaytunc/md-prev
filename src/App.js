@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1 className="app-header">Markdown Previewer</h1>
+      <div className="app-header">Markdown Previewer</div>
       <div className="md-io-wrapper">
         <MarkdownInput
           setAppCompInput={setAppCompInput}

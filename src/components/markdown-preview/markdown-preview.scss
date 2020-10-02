@@ -1,0 +1,13 @@
+.preview {
+  height: 30vh;
+  width: 35vw;
+  background: #ddd;
+  overflow: scroll;
+}
+
+@media screen and (max-width: 520px) {
+  .preview {
+    height: 50vh;
+    width: 100vw;
+  }
+}

@@ -1,0 +1,11 @@
+.editor {
+  height: 30vh;
+  width: 35vw;
+}
+
+@media screen and (max-width: 520px) {
+  .editor {
+    height: 50vh;
+    width: 100vw;
+  }
+}

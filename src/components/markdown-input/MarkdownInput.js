@@ -11,6 +11,7 @@ export const MarkdownInput = ({ setAppCompInput, getAppInput }) => {
       value={getAppInput}
       onChange={(event) => handleInput(event)}
       className="editor"
+      placeholder={`# Type markdown here! \n`}
     ></textarea>
   );
 };

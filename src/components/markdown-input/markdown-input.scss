@@ -1,6 +1,9 @@
 .editor {
   height: 30vh;
   width: 35vw;
+  text-shadow: none;
+  text-align: initial;
+  padding-left: 2em;
 }
 
 @media screen and (max-width: 520px) {

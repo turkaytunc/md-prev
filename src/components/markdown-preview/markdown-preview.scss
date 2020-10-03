@@ -1,18 +1,23 @@
-@import url('https://highlightjs.org/static/demo/styles/monokai.css');
+@import url('https://highlightjs.org/static/demo/styles/railscasts.css');
 
 .preview {
-  height: 30vh;
+  height: 40vh;
   width: 35vw;
-  background: #eee;
-  overflow: scroll;
-  font-size: 0.9em;
+  background: #232323;
+  overflow-y: scroll;
+  font-size: 0.85em;
+  line-height: 1.6em;
   text-shadow: none;
   text-align: initial;
+  color: #ddd;
+  padding: 1em 0em 1em 1.5em;
 }
 
 @media screen and (max-width: 520px) {
   .preview {
     height: 50vh;
     width: 100vw;
+    padding-left: 0.5em;
+    padding-bottom: 2em;
   }
 }

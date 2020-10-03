@@ -43,4 +43,4 @@ ReactDOM.render(
 [link text](https://github.com/turkaytunc/md-prev)
 
 ## Images
-![logo](https://github.com/turkaytunc/md-prev/blob/main/public/logo192.png)`;
+![logo](https://github.com/turkaytunc/md-prev/blob/main/public/tr.png)  `;

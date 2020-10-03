@@ -10,13 +10,13 @@
 }
 
 .app-header {
-  font-size: 4vh;
+  font-size: 5vh;
   color: rgb(228, 96, 43);
   text-shadow: 0.12vw 0.12vh 0 #333;
 }
 
 .md-io-wrapper {
-  padding: 10vh 0;
+  padding: 5vh 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -31,7 +31,7 @@
   }
 
   .md-io-wrapper {
-    padding: 2vh 0;
+    padding-top: 2vh;
     grid-template-columns: 1fr;
   }
 }
